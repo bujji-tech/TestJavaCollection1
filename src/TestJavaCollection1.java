@@ -26,7 +26,7 @@ al.retainAll(l);
 Spliterator<String> sp=l.spliterator();
 sp.forEachRemaining((p)->
 System.out.println(p));
-	
+System.out.println("hai welcome");
 
 }
 
